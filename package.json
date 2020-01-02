@@ -1,0 +1,34 @@
+{
+    "name": "simpleview-lib",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": ["/dist"],
+    "author": {
+        "name": "baavgai",
+        "email": "baavgai@chaingang.org"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Baavgai/simpleview-lib.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "clean": "shx rm -rf dist",
+
+        "prebuild": "yarn run clean",
+        "build": "yarn run webpack",
+        "tsc": "./node_modules/.bin/tsc",
+        "pretest": "yarn run clean",
+        "test": "yarn run tsc"
+
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "awesome-typescript-loader": "^5.2.1",
+        "shx": "^0.3.2",
+        "typescript": "^3.7.4",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    }
+}

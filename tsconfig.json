@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "importHelpers": true,
+        "strictNullChecks": true,
+    },
+    "files": [
+        "./src/index.ts"
+    ]
+}
